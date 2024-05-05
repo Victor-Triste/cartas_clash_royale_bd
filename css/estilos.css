@@ -1,0 +1,75 @@
+body{
+    background-image: url(../imagenes/fondo.png);
+    opacity: 1s;
+}
+.panel-cartas{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: auto;
+    margin: 0;
+    margin-top: 160px;
+    margin-left: 140px;
+    margin-right: 140px;
+    position: relative;
+}
+
+.reyRojo{
+    height: 190px;
+    width: 160px;
+    position:fixed;
+    top: calc(100% - 190px);
+    left: calc(100% - 170px);
+    z-index:1;
+    transition: opacity 1s;
+}
+
+.reyAzul{
+    z-index: 3;
+    height: 190px;
+    width: 160px;
+    position:fixed;
+    top: calc(100% - 190px);
+    right: calc(100% - 160px);
+    z-index:1;
+    transition: opacity 3s;
+}
+
+.contenedor-titulo{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 160px;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.titulo{
+    width: 190px;
+    height: 150px;
+    margin: 0%;
+    position: sticky;
+}
+
+.contenedor-titulo .titulo{
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    z-index: 100;
+}
+
+.contenedor-ordenacion{
+    background-color: rgba(0, 0, 0, 0.39);
+    margin-left: 0%;
+    margin-top: 10px;
+    width: 139px;
+    height: 190px;
+    z-index: 3;
+    position: fixed;
+    overflow: hidden;
+    text-align: left;
+    align-items: left;
+    color: black;
+}
